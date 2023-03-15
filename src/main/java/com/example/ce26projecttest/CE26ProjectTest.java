@@ -123,7 +123,7 @@ public class CE26ProjectTest extends Application {
                 }
                 dictionary.put(language, translations);
                 System.out.println(translationss);
-                listView.getItems().addAll(translationss);
+                listView.getItems().addAll(line);
                 reader.close();
             }
         } catch (IOException e) {
